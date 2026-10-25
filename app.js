@@ -6,7 +6,7 @@
    dossierImages : dossier où sont rangées les images (nommées par code)
 ================================================================== */
 const CONFIG = {
-  csvUrl: "",
+  csvUrl: "https://docs.google.com/spreadsheets/d/1m_OLtcQdD-s6izQVVcIszA3uGROEKAh2cUXc8wKPiJI/edit?usp=sharing",
   dossierImages: "items/",
   extensions: ["png", "webp", "jpg"],   // testées dans cet ordre
   devise: "septims",
@@ -19,11 +19,6 @@ const CONFIG = {
    (puis .webp, puis .jpg).
    vendu = "oui" (ou x, true, 1, case cochée) → l'objet reste dans le
    Sheet comme registre mais n'apparaît plus dans le catalogue.   */
-const DEMO = [
-  { code: "A001", nom: "Tunique de Marchand Cyrodiilien Enchantée", description: "Enchantement de Port", prix: "1800" },
-  { code: "A002", nom: "Armure Gothique Enchantée", description: "Enchantement de Conjuration ou Destruction", prix: "3500" },
-  { code: "W001", nom: "Lame de Givre Ancienne", description: "Dégâts de froid", prix: "5200" },
-];
 
 /* ------------------------------------------------------------------
    1. Charger les données
