@@ -6,7 +6,7 @@
    dossierImages : dossier où sont rangées les images (nommées par code)
 ================================================================== */
 const CONFIG = {
-  csvUrl: "https://docs.google.com/spreadsheets/d/1m_OLtcQdD-s6izQVVcIszA3uGROEKAh2cUXc8wKPiJI/pub?gid=0&single=true&output=csv",
+  csvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQe4zbDxIyBKMPwaovjkVDo-Xek0WJR0sLWowYgpfws4U80P5gdajLiYb6dEsFq74zWhmfEzBBK82TG/pub?gid=0&single=true&output=csv",
   dossierImages: "items/",
   extensions: ["png", "webp", "jpg"],   // testées dans cet ordre
   devise: "septims",
