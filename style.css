@@ -15,7 +15,7 @@
   --livre: url("assets/livre.png");   /* pages, PNG avec canal alpha */
   --decor: url("assets/fond.png");    /* image fixe derrière les pages, même taille */
   --taille-livre: 80;                 /* taille max du livre en % de l'écran */
-  --marge-image: 0%;                  /* espace entre l'objet et le cadre (0% = collé) */
+  --marge-image: -4%;                  /* espace entre l'objet et le cadre (0% = collé) */
   --police: "1553Human", "IM Fell English SC", Georgia, serif;
 }
 
