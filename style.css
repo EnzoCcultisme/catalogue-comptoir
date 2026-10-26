@@ -16,7 +16,7 @@
   --decor: url("assets/fond.webp");   /* image fixe derrière les pages, même taille */
   --taille-livre: 80;                 /* taille max du livre en % de l'écran */
   --marge-image: 0%;                  /* espace entre l'objet et le cadre (min 0%) */
-  --zoom-image: 0.6;                    /* zoom global des objets : 1 = normal, 1.3 = +30% */
+  --zoom-image: 1.6;                    /* zoom global des objets : 1 = normal, 1.3 = +30% */
   --police: "1553Human", "IM Fell English SC", Georgia, serif;
 }
 
